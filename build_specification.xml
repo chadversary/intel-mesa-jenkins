@@ -822,8 +822,12 @@
       <mesa branch="internal/internal"/>
     </branch>
 
-    <branch name="chadv" project="test-single-arch-vulkan">
-      <mesa branch="chadv/jenkins"/>
+    <branch name="chadv_gl" project="test-single-arch">
+      <mesa branch="chadv/intel-ci-gl"/>
+    </branch>
+
+    <branch name="chadv_vk" project="test-single-arch-vulkan">
+      <mesa branch="chadv/intel-ci-vk"/>
     </branch>
 
     <branch name="hakzsam" project="test-single-arch-vulkan">
